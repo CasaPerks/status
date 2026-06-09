@@ -12,13 +12,7 @@ sites:
   - name: WorksPerks Web App
     url: https://worksperks.com
 
-  # --- Third-party dependencies (ANONYMIZED) ---
-  # Display name is generic; the real vendor URL is a GitHub Actions secret,
-  # so the vendor identity never appears in this public repo or on the page.
-  # Add each secret in repo Settings → Secrets and variables → Actions.
-  # Point each at a URL that returns 200 when the vendor is healthy
-  # (their public status/health page is usually the safest target — an
-  #  authenticated API endpoint will 401 from the probe and read as "down").
+  # --- Third-party dependencies (ANONYMIZED via Actions secrets) ---
   - name: Gift Card Fulfillment
     url: $GIFTCARD_PROVIDER_URL
   - name: SMS Delivery
@@ -29,10 +23,18 @@ sites:
 status-website:
   cname: status.casaperks.com
   name: CasaPerks Status
-  introTitle: "**CasaPerks** — Status & Uptime"
+  logoUrl: "https://cdn.prod.website-files.com/6687f07a0165ef3b4fef297a/6687f07a0165ef3b4fef29ad_logo-orange.svg"
+  favicon: "https://cdn.prod.website-files.com/66542016605ee0d4ac81af4a/66607f3f755789017d5e8586_favicon%20(1).png"
+  theme: light
+  introTitle: "CasaPerks — Status & Uptime"
   introMessage: Real-time and historical availability of CasaPerks services. Check back here during an incident.
   navbar:
     - title: Status
       href: /
     - title: "Report an issue"
-      href: https://github.com/CasaPerks/status/issues
+      href: https://share.hsforms.com/1TzGsU8CzSdeGilIorVtiegshwmb
+  # First-pass brand styling (CasaPerks palette) — iterate from here
+  css: |
+    body { background-color: #FDF9F9 !important; }
+    a, a:hover, a:focus { color: #F34926 !important; }
+    h1, h2, h3 { color: #5F1E21 !important; }
