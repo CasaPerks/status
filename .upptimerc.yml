@@ -1,31 +1,38 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# CasaPerks status page — Upptime config
+# Docs: https://upptime.js.org/docs/configuration
+owner: CasaPerks
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
+  # --- First-party services (public URLs — fine to show) ---
+  - name: API
+    url: https://api.casaperks.com/api/
+  - name: CasaPerks Web App
+    url: https://admin.casaperks.com
+  - name: WorksPerks Web App
+    url: https://worksperks.com
+
+  # --- Third-party dependencies (ANONYMIZED) ---
+  # Display name is generic; the real vendor URL is a GitHub Actions secret,
+  # so the vendor identity never appears in this public repo or on the page.
+  # Add each secret in repo Settings → Secrets and variables → Actions.
+  # Point each at a URL that returns 200 when the vendor is healthy
+  # (their public status/health page is usually the safest target — an
+  #  authenticated API endpoint will 401 from the probe and read as "down").
+  - name: Gift Card Fulfillment
+    url: $GIFTCARD_PROVIDER_URL
+  - name: SMS Delivery
+    url: $SMS_PROVIDER_URL
+  - name: Email Delivery
+    url: $EMAIL_PROVIDER_URL
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  cname: status.casaperks.com
+  name: CasaPerks Status
+  introTitle: "**CasaPerks** — Status & Uptime"
+  introMessage: Real-time and historical availability of CasaPerks services. Check back here during an incident.
   navbar:
     - title: Status
       href: /
-    - title: GitHub
-      href: https://github.com/$OWNER/$REPO
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+    - title: "Report an issue"
+      href: https://github.com/CasaPerks/status/issues
