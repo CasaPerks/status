@@ -40,19 +40,19 @@
     "url": "https://worksperks.com",
     "icon": "https://icons.duckduckgo.com/ip3/worksperks.com.ico",
     "slug": "works-perks-web-app",
-    "status": "down",
-    "uptime": "99.67%",
-    "uptimeDay": "99.67%",
-    "uptimeWeek": "99.67%",
-    "uptimeMonth": "99.67%",
-    "uptimeYear": "99.67%",
-    "time": 188,
-    "timeDay": 188,
-    "timeWeek": 188,
-    "timeMonth": 188,
-    "timeYear": 188,
+    "status": "up",
+    "uptime": "95.79%",
+    "uptimeDay": "95.79%",
+    "uptimeWeek": "95.79%",
+    "uptimeMonth": "95.79%",
+    "uptimeYear": "95.79%",
+    "time": 283,
+    "timeDay": 283,
+    "timeWeek": 283,
+    "timeMonth": 283,
+    "timeYear": 283,
     "dailyMinutesDown": {
-      "2026-06-09": 1
+      "2026-06-09": 9
     }
   },
   {
@@ -61,38 +61,36 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "gift-card-fulfillment",
     "status": "up",
-    "uptime": "7.76%",
-    "uptimeDay": "7.76%",
-    "uptimeWeek": "7.76%",
-    "uptimeMonth": "7.76%",
-    "uptimeYear": "7.76%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 178,
     "timeDay": 178,
     "timeWeek": 178,
     "timeMonth": 178,
     "timeYear": 178,
-    "dailyMinutesDown": {
-      "2026-06-09": 198
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "SMS Delivery",
     "url": "$SMS_PROVIDER_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sms-delivery",
-    "status": "down",
-    "uptime": "7.53%",
-    "uptimeDay": "7.53%",
-    "uptimeWeek": "7.53%",
-    "uptimeMonth": "7.53%",
-    "uptimeYear": "7.53%",
-    "time": 98,
-    "timeDay": 98,
-    "timeWeek": 98,
-    "timeMonth": 98,
-    "timeYear": 98,
+    "status": "up",
+    "uptime": "95.88%",
+    "uptimeDay": "95.88%",
+    "uptimeWeek": "95.88%",
+    "uptimeMonth": "95.88%",
+    "uptimeYear": "95.88%",
+    "time": 115,
+    "timeDay": 115,
+    "timeWeek": 115,
+    "timeMonth": 115,
+    "timeYear": 115,
     "dailyMinutesDown": {
-      "2026-06-09": 198
+      "2026-06-09": 9
     }
   },
   {
@@ -100,19 +98,19 @@
     "url": "$EMAIL_PROVIDER_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "email-delivery",
-    "status": "down",
-    "uptime": "7.61%",
-    "uptimeDay": "7.61%",
-    "uptimeWeek": "7.61%",
-    "uptimeMonth": "7.61%",
-    "uptimeYear": "7.61%",
-    "time": 73,
-    "timeDay": 73,
-    "timeWeek": 73,
-    "timeMonth": 73,
-    "timeYear": 73,
+    "status": "up",
+    "uptime": "95.96%",
+    "uptimeDay": "95.96%",
+    "uptimeWeek": "95.96%",
+    "uptimeMonth": "95.96%",
+    "uptimeYear": "95.96%",
+    "time": 129,
+    "timeDay": 129,
+    "timeWeek": 129,
+    "timeMonth": 129,
+    "timeYear": 129,
     "dailyMinutesDown": {
-      "2026-06-09": 197
+      "2026-06-09": 9
     }
   }
 ]
