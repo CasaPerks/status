@@ -4,13 +4,16 @@ owner: CasaPerks
 repo: status
 
 sites:
-  # --- First-party services (public URLs — fine to show) ---
   - name: API
     url: https://api.casaperks.com/api/
   - name: CasaPerks Web App
     url: https://admin.casaperks.com
   - name: WorksPerks Web App
     url: https://worksperks.com
+    # Real users get a 302; the WAF was 403-blocking the bare probe → false "down".
+    # Send a browser UA so the probe isn't treated as a bot.
+    headers:
+      - "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
 
   # --- Third-party dependencies (ANONYMIZED via Actions secrets) ---
   - name: Gift Card Fulfillment
@@ -33,7 +36,6 @@ status-website:
       href: /
     - title: "Report an issue"
       href: https://share.hsforms.com/1TzGsU8CzSdeGilIorVtiegshwmb
-  # First-pass brand styling (CasaPerks palette) — iterate from here
   css: |
     body { background-color: #FDF9F9 !important; }
     a, a:hover, a:focus { color: #F34926 !important; }
