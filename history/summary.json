@@ -40,19 +40,19 @@
     "url": "https://worksperks.com",
     "icon": "https://icons.duckduckgo.com/ip3/worksperks.com.ico",
     "slug": "works-perks-web-app",
-    "status": "down",
-    "uptime": "99.92%",
-    "uptimeDay": "99.92%",
-    "uptimeWeek": "99.92%",
-    "uptimeMonth": "99.92%",
-    "uptimeYear": "99.92%",
-    "time": 302,
-    "timeDay": 302,
-    "timeWeek": 302,
-    "timeMonth": 302,
-    "timeYear": 302,
+    "status": "up",
+    "uptime": "87.51%",
+    "uptimeDay": "87.51%",
+    "uptimeWeek": "87.51%",
+    "uptimeMonth": "87.51%",
+    "uptimeYear": "87.51%",
+    "time": 297,
+    "timeDay": 297,
+    "timeWeek": 297,
+    "timeMonth": 297,
+    "timeYear": 297,
     "dailyMinutesDown": {
-      "2026-06-10": 1
+      "2026-06-10": 94
     }
   },
   {
@@ -78,19 +78,19 @@
     "url": "$SMS_PROVIDER_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sms-delivery",
-    "status": "down",
-    "uptime": "99.95%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.95%",
-    "uptimeMonth": "99.95%",
-    "uptimeYear": "99.95%",
-    "time": 196,
-    "timeDay": 196,
-    "timeWeek": 196,
-    "timeMonth": 196,
-    "timeYear": 196,
+    "status": "up",
+    "uptime": "87.53%",
+    "uptimeDay": "87.53%",
+    "uptimeWeek": "87.53%",
+    "uptimeMonth": "87.53%",
+    "uptimeYear": "87.53%",
+    "time": 192,
+    "timeDay": 192,
+    "timeWeek": 192,
+    "timeMonth": 192,
+    "timeYear": 192,
     "dailyMinutesDown": {
-      "2026-06-10": 0
+      "2026-06-10": 94
     }
   },
   {
@@ -98,17 +98,19 @@
     "url": "$EMAIL_PROVIDER_URL",
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "email-delivery",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "87.55%",
+    "uptimeDay": "87.55%",
+    "uptimeWeek": "87.55%",
+    "uptimeMonth": "87.55%",
+    "uptimeYear": "87.55%",
     "time": 150,
     "timeDay": 150,
     "timeWeek": 150,
     "timeMonth": 150,
     "timeYear": 150,
-    "dailyMinutesDown": {}
+    "dailyMinutesDown": {
+      "2026-06-10": 94
+    }
   }
 ]
