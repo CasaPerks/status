@@ -23,18 +23,18 @@
     "icon": "https://icons.duckduckgo.com/ip3/admin.casaperks.com.ico",
     "slug": "casa-perks-web-app",
     "status": "down",
-    "uptime": "99.99%",
-    "uptimeDay": "99.95%",
-    "uptimeWeek": "99.99%",
-    "uptimeMonth": "99.99%",
-    "uptimeYear": "99.99%",
+    "uptime": "99.09%",
+    "uptimeDay": "96.03%",
+    "uptimeWeek": "99.09%",
+    "uptimeMonth": "99.09%",
+    "uptimeYear": "99.09%",
     "time": 159,
     "timeDay": 100,
     "timeWeek": 159,
     "timeMonth": 159,
     "timeYear": 159,
     "dailyMinutesDown": {
-      "2026-06-14": 1
+      "2026-06-14": 57
     }
   },
   {
@@ -43,11 +43,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/worksperks.com.ico",
     "slug": "works-perks-web-app",
     "status": "down",
-    "uptime": "97.41%",
-    "uptimeDay": "99.96%",
-    "uptimeWeek": "97.41%",
-    "uptimeMonth": "97.41%",
-    "uptimeYear": "97.41%",
+    "uptime": "96.53%",
+    "uptimeDay": "96.05%",
+    "uptimeWeek": "96.53%",
+    "uptimeMonth": "96.53%",
+    "uptimeYear": "96.53%",
     "time": 275,
     "timeDay": 235,
     "timeWeek": 275,
@@ -56,7 +56,7 @@
     "dailyMinutesDown": {
       "2026-06-10": 94,
       "2026-06-12": 67,
-      "2026-06-14": 1
+      "2026-06-14": 57
     }
   },
   {
@@ -83,11 +83,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "sms-delivery",
     "status": "down",
-    "uptime": "97.41%",
-    "uptimeDay": "99.98%",
-    "uptimeWeek": "97.41%",
-    "uptimeMonth": "97.41%",
-    "uptimeYear": "97.41%",
+    "uptime": "96.54%",
+    "uptimeDay": "96.06%",
+    "uptimeWeek": "96.54%",
+    "uptimeMonth": "96.54%",
+    "uptimeYear": "96.54%",
     "time": 186,
     "timeDay": 135,
     "timeWeek": 186,
@@ -96,7 +96,7 @@
     "dailyMinutesDown": {
       "2026-06-10": 94,
       "2026-06-12": 66,
-      "2026-06-14": 0
+      "2026-06-14": 57
     }
   },
   {
@@ -105,11 +105,11 @@
     "icon": "https://icons.duckduckgo.com/ip3/null.ico",
     "slug": "email-delivery",
     "status": "down",
-    "uptime": "97.42%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "97.42%",
-    "uptimeMonth": "97.42%",
-    "uptimeYear": "97.42%",
+    "uptime": "96.55%",
+    "uptimeDay": "96.08%",
+    "uptimeWeek": "96.55%",
+    "uptimeMonth": "96.55%",
+    "uptimeYear": "96.55%",
     "time": 171,
     "timeDay": 167,
     "timeWeek": 171,
@@ -118,7 +118,7 @@
     "dailyMinutesDown": {
       "2026-06-10": 94,
       "2026-06-12": 66,
-      "2026-06-14": 0
+      "2026-06-14": 56
     }
   }
 ]
