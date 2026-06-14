@@ -1,7 +1,7 @@
 url: $EMAIL_PROVIDER_URL
-status: down
-code: 405
-responseTime: 66
-lastUpdated: 2026-06-14T00:18:31.145Z
+status: up
+code: 200
+responseTime: 248
+lastUpdated: 2026-06-14T02:32:41.810Z
 startTime: 2026-06-09T16:31:32.255Z
 generator: Upptime <https://github.com/upptime/upptime>
